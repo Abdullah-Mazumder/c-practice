@@ -1,6 +1,5 @@
-
-
-float sum()
-{
-    return 5 + sqrt(254);
-}
+int avg_func(int arr[])
+// {
+//     int n = sizeof(arr[]) / sizeof(arr[0]);
+//     return n;
+// }
