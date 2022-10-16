@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <string.h>
+#include <stdbool.h>
 
 /*
 void change(int *n)
@@ -46,6 +48,7 @@ int main()
 }
 */
 
+/*
 void starPattern(int rows)
 {
     for (int i = 0; i < rows; i++)
@@ -80,3 +83,53 @@ int main()
 
     return 0;
 }
+
+*/
+
+/*
+int main()
+{
+    char srt[] = "Abdullah";
+    // int n = sizeof(srt) / sizeof(srt[0]);
+    int n = 0, i = 0;
+    while (srt[i] != '\0')
+    {
+        n++;
+        i++;
+    }
+
+    printf("%d\n", n);
+    return 0;
+}
+*/
+
+/*
+
+int main()
+{
+    char str1[] = "Abdullah";
+    char str2[] = "Imran";
+    char str3[33];
+
+    // puts(strcat(str1, str2));
+    // printf("%d\n", strlen(str2));
+    // printf("%s\n", strrev(str1));
+
+    // strcpy(str3, strcat(str1, str2));
+    // puts(str3);
+
+    printf("%d\n", strcmp(str1, str2));
+
+    return 0;
+}
+
+*/
+
+// /*
+
+int main()
+{
+    int array[] = {0, 1, 2, 3, 4, 5, 6};
+}
+
+// */
