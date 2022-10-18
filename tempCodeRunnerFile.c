@@ -1,2 +1,4 @@
-
-    // printf("%d\n", length);
+while (string[strlen(string) - 1] == ' ')
+    {
+        string[strlen(string) - 1] = '\0';
+    }

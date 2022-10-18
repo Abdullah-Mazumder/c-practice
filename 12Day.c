@@ -16,11 +16,15 @@ void reverse_array(int *array, int length)
     {
         for (int i = 0; i < length; i++)
         {
-            if (i != length - 1)
+            if (i != length - i - 1)
             {
                 int temp = array[i];
                 array[i] = array[length - i - 1];
                 array[length - i - 1] = temp;
+            }
+            else
+            {
+                break;
             }
         }
     }
