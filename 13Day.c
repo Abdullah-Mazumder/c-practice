@@ -65,7 +65,7 @@ int main()
 }
 */
 
-// /*
+/*
 
 void parser(char *string)
 {
@@ -115,4 +115,4 @@ int main()
     return 0;
 }
 
-// */
+*/
